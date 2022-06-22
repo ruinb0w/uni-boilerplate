@@ -3,7 +3,7 @@
 ### 下载
 
 ```
-git clone -b vite https://gitee.com/ruinb0w/uni-template.git
+git clone https://gitee.com/ruinb0w/uni-template.git
 ```
 
 ### 开发
