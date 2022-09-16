@@ -1,7 +1,7 @@
 import { useUserStore } from "../store/user";
 const host = "http://101.34.142.175:39101"; // 笔记本服务器
 
-// 请求白名单, 白名单外的请求在没有user_id和token的情况下不会发出.
+// if api in the white_list, then request will not try to get user info.
 const WHITE_LIST = ["/wxapp/auth/login"];
 
 export async function request(body, resolve = true) {
